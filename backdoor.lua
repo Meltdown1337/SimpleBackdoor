@@ -804,7 +804,7 @@ highlight_source("Text")
 source.Changed:Connect(highlight_source)
 
 --------------------------------------------------------------------------------------------------------\
-WelcomeString = "Thank you for using Backdoor.exe ! Made by Meltdown1337 <3"
+WelcomeString = "Thank you for using Backdoor.exe ! Made by K4izen#1755 <3"
 for i = 1, string.len(WelcomeString) do
     wait(.01)
     source.Text = string.sub(WelcomeString, 1, i)
